@@ -22,13 +22,13 @@
  */
 package br.org.soujava.rio.produces;
 
-import javax.enterprise.inject.Produces;
-import javax.json.bind.Jsonb;
-import javax.json.bind.JsonbBuilder;
+import jakarta.enterprise.inject.Produces;
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
 
 /**
- * @author daniel 
- * github:Daniel-Dos 
+ * @author daniel
+ * github:Daniel-Dos
  * daniel.dias.analistati@gmail.com
  * twitter:@danieldiasjava
  */

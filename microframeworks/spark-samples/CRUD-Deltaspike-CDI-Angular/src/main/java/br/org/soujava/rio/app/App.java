@@ -29,12 +29,10 @@ import static spark.Spark.port;
 import static spark.Spark.post;
 import static spark.Spark.put;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.RequestScoped;
-import javax.enterprise.event.Observes;
-import javax.inject.Inject;
-import javax.json.bind.Jsonb;
+import jakarta.enterprise.event.Observes;
+import jakarta.json.bind.Jsonb;
 
+import jakarta.inject.Inject;
 import org.jboss.weld.environment.se.events.ContainerInitialized;
 
 import br.org.soujava.rio.filter.cors.CorsFilter;
@@ -44,8 +42,8 @@ import br.org.soujava.rio.repository.JUGRepository;
 import br.org.soujava.rio.transformer.JsonTransformer;
 
 /**
- * @author Daniel Dias 
- * github:Daniel-Dos 
+ * @author Daniel Dias
+ * github:Daniel-Dos
  * daniel.dias@soujava.org.br
  * twitter:@danieldiasjava
  */

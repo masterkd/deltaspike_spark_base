@@ -23,8 +23,8 @@
 
 package br.org.soujava.rio.transformer;
 
-import javax.inject.Inject;
-import javax.json.bind.Jsonb;
+import jakarta.inject.Inject;
+import jakarta.json.bind.Jsonb;
 
 import spark.ResponseTransformer;
 

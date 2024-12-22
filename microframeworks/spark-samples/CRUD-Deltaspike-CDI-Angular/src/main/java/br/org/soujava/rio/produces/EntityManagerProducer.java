@@ -22,16 +22,16 @@
  */
 package br.org.soujava.rio.produces;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Disposes;
-import javax.enterprise.inject.Produces;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.inject.Disposes;
+import jakarta.enterprise.inject.Produces;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 
 /**
- * @author daniel 
- * github:Daniel-Dos 
+ * @author daniel
+ * github:Daniel-Dos
  * daniel.dias.analistati@gmail.com
  * twitter:@danieldiasjava
  */
